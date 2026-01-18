@@ -1,0 +1,74 @@
+[
+  {
+    "total_frames": 226,
+    "success_frames": 226,
+    "success_rate_%": 100.0,
+    "stability_sigma_px": 39.124,
+    "jitter_rate_%": 0.889,
+    "mean_lane_width_px": 401.619,
+    "lane_width_sigma_px": 32.607,
+    "video": "road (2).mp4",
+    "scenario": "rural",
+    "config": "B0_baseline"
+  },
+  {
+    "total_frames": 452,
+    "success_frames": 450,
+    "success_rate_%": 99.558,
+    "stability_sigma_px": 70.693,
+    "jitter_rate_%": 14.922,
+    "mean_lane_width_px": 458.949,
+    "lane_width_sigma_px": 93.157,
+    "video": "road (3).mp4",
+    "scenario": "highway",
+    "config": "B0_baseline"
+  },
+  {
+    "total_frames": 226,
+    "success_frames": 226,
+    "success_rate_%": 100.0,
+    "stability_sigma_px": 39.482,
+    "jitter_rate_%": 0.444,
+    "mean_lane_width_px": 401.569,
+    "lane_width_sigma_px": 32.636,
+    "video": "road (2).mp4",
+    "scenario": "rural",
+    "config": "B1_kalman"
+  },
+  {
+    "total_frames": 452,
+    "success_frames": 450,
+    "success_rate_%": 99.558,
+    "stability_sigma_px": 60.741,
+    "jitter_rate_%": 9.577,
+    "mean_lane_width_px": 461.548,
+    "lane_width_sigma_px": 80.308,
+    "video": "road (3).mp4",
+    "scenario": "highway",
+    "config": "B1_kalman"
+  },
+  {
+    "total_frames": 226,
+    "success_frames": 226,
+    "success_rate_%": 100.0,
+    "stability_sigma_px": 40.646,
+    "jitter_rate_%": 0.444,
+    "mean_lane_width_px": 405.285,
+    "lane_width_sigma_px": 17.552,
+    "video": "road (2).mp4",
+    "scenario": "rural",
+    "config": "B2_proposed"
+  },
+  {
+    "total_frames": 452,
+    "success_frames": 450,
+    "success_rate_%": 99.558,
+    "stability_sigma_px": 53.638,
+    "jitter_rate_%": 0.0,
+    "mean_lane_width_px": 524.449,
+    "lane_width_sigma_px": 11.477,
+    "video": "road (3).mp4",
+    "scenario": "highway",
+    "config": "B2_proposed"
+  }
+]

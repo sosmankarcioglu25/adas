@@ -1,0 +1,7 @@
+video,scenario,config,total_frames,success_frames,success_rate_%,stability_sigma_px,jitter_rate_%,mean_lane_width_px,lane_width_sigma_px
+road (2).mp4,rural,B0_baseline,226,226,100.0,39.124,0.889,401.619,32.607
+road (3).mp4,highway,B0_baseline,452,450,99.558,70.693,14.922,458.949,93.157
+road (2).mp4,rural,B1_kalman,226,226,100.0,39.482,0.444,401.569,32.636
+road (3).mp4,highway,B1_kalman,452,450,99.558,60.741,9.577,461.548,80.308
+road (2).mp4,rural,B2_proposed,226,226,100.0,40.646,0.444,405.285,17.552
+road (3).mp4,highway,B2_proposed,452,450,99.558,53.638,0.0,524.449,11.477
